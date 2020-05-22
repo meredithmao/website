@@ -1,0 +1,259 @@
+@font-face {
+    font-family: "Belove";
+    src: url("../Fonts/belove/Belove.otf")format("opentype");
+}
+@font-face {
+    font-family: "Vogue";
+    src: url("../Fonts/Vogue.ttf")format("truetype");
+}
+
+@font-face {
+    font-family: "Nouvelle";
+    src: url("../Fonts/nouvelle_vague_final.ttf")format("truetype");
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo {
+    color: black;
+}
+
+.logo a:visited {
+    color:black;
+}
+
+#menu{
+    max-width: 100%;
+    height: 50px;
+    background: black;
+}
+
+#menu a:link{
+    color: white;
+}
+#menu a:visited{
+    color:white;
+}
+.header-division.container{
+    text-align: center;
+
+    font-family: Belove, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 85px;
+    line-height: 100px;
+    color: #000000;
+}
+
+.main-nav-item{
+    display: inline;
+    font-family: Vogue, sans-serif;
+    font-size: 25px;
+    color: #FFFFFF;
+    padding: 10px 40px;
+}
+
+.main-nav.container{
+    display: table;
+    margin: 0 auto;
+}
+
+.social-container{
+    position: absolute;
+    display: table;
+    /*max-width: 300px;*/
+    right: 150px;
+}
+
+.social-list{
+    padding-top: 10px;
+    margin-left: 10px;
+    padding-left: 0px;
+}
+
+.social-item{
+    display: inline-block;
+    padding-right: 13px;
+    padding-left: 10px;
+}
+
+.follow-link{
+    background-color: white;
+    /*background-size: 14px 14px;*/
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.tech-link-container{
+    position: absolute;
+    display: table;
+    max-width: 300px;
+    margin-top: 100px;
+    right: 140px;
+    padding: 10px 10px 40px 10px;
+
+    border: 7px solid rgba(115, 137, 181, 0.29);
+    box-sizing: border-box;
+}
+
+h1{
+    display: inline-block;
+    font-family: Didot, serif;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 100.7%;
+    letter-spacing: 0.18em;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.tech-list{
+    padding-left: 15px;
+    list-style-type: none;
+}
+
+.tech-socials{
+    display: inline-block;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+a.resume{
+
+    background: black;
+    border: 1px solid #FDFDFD;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(10, 5, 5, 0.33);
+    border-radius: 8px;
+
+    font-family: Didot, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 100.7%;
+    letter-spacing: 0.12em;
+
+    color: white;
+    padding-left: 10px;
+    padding-right: 0px;
+    margin-top: 0px;
+    margin-left: 45px;
+}
+
+.resume-item{
+    position: absolute;
+    display: table;
+}
+
+.download{
+    background-color: white;
+    background-size: 14px 14px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    padding-top: 20px;
+
+}
+
+.contact-form-containers{
+    position: absolute;
+    display: table;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.form-field{
+    font-family: Didot, serif;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;.
+
+    color: rgba(0, 0, 0, 0.79);
+    display: inline-block;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+
+}
+
+.form-message{
+    font-family: Didot, serif;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+
+    color: rgba(0, 0, 0, 0.79);
+
+    padding-left: 50px;
+    padding-top: 20px;
+    display: block;
+
+}
+
+input, label{
+    display: block;
+    font-family: Didot, serif;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+
+    color: rgba(0, 0, 0, 0.79);
+}
+
+h2 {
+    font-family: Nouvelle, serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 36px;
+    color: #000000;
+    vertical-align: middle;
+    text-align: center;
+}
+
+textarea{
+    width: 94%;
+    height: 200px;
+}
+
+#submit_button {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:  20px;
+    margin-bottom: 10px;
+
+    font-family: Didot, serif;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+
+    background-color: black;
+    background-size: 40px;
+
+    border-radius: 10px;
+    color: #FFFFFF;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.react-carousel {
+    width: 100%;
+    height: 100%;
+}
